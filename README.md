@@ -8,4 +8,4 @@
 
 
 
-# .env have been removed from public repository, this is a front end repository of Brooklyn-Full project
+.env have been removed from public repository, this is a front end repository of Broklyn project
