@@ -1,0 +1,25 @@
+{
+  "name": "brooklyn-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-amplify": "^1.1.26",
+    "cypress": "^3.3.1"
+  },
+  "devDependencies": {
+    "cypress-testing-library": "^2.4.0",
+    "wait-on": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "cypress open",
+    "cy:open:local": "CYPRESS_baseUrl=http://localhost:3000 cypress open",
+    "cy:run": "cypress run",
+    "cy:run:docker": "CYPRESS_baseUrl=http://localhost:3005 cypress run",
+    "cy:open:docker": "CYPRESS_baseUrl=http://localhost:3005 cypress open",
+    "cy:wait-and-run": "wait-on -w 40000 http://brooklyn-client:3005 && cypress run"
+  },
+  "author": "",
+  "license": "ISC"
+}

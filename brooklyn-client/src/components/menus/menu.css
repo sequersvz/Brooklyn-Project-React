@@ -1,0 +1,245 @@
+.btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+  border: none;
+}
+
+.header span {
+  font-size: 14px;
+}
+
+.left,
+.bodyContainer,
+.leftCheck {
+  float: left;
+  overflow: auto;
+}
+
+.left {
+  font-size: 12px;
+  width: 45px;
+  background: #5b2157;
+  white-space: nowrap;
+  transition: width 1s;
+  display: inline-block;
+  overflow-x: hidden;
+}
+
+.leftCheck {
+  margin-right: 15px;
+  background: #683364;
+  white-space: nowrap;
+  transition: width 1s;
+  display: inline-block;
+}
+
+.left:hover {
+  width: 220px;
+}
+
+.ckeck {
+  padding-left: 0px !important;
+}
+
+.item {
+  font-weight: 600;
+  text-align: left;
+  height: 40px;
+  color: #d68dd0;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px 20px 10px 10px;
+}
+
+.item:hover {
+  text-align: left;
+  color: #b1b1b1;
+  background-color: #683364;
+}
+
+.item .svg-inline--fa {
+  margin-right: 5px;
+  width: 1.1em;
+  height: 0.72em;
+}
+
+.item-category {
+  font-weight: bold;
+  font-size: 32rem;
+  margin: -5px 0px -5px 40px;
+  text-align: left;
+  color: #995794;
+  overflow: hidden;
+  padding: 10px 20px 10px 10px;
+}
+.item-category + hr {
+  margin: -15px 8px 0px;
+  border-top: 1px solid rgba(238, 238, 238, 0.2);
+  margin-bottom: 5px;
+}
+.itemcheck {
+  text-align: left;
+  font-size: 14px;
+  height: 40px;
+  width: 300px;
+  color: #b1b1b1;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.itemcheckMenuGray, .itemcheckMenuGrayReport {
+  text-align: left;
+  font-size: 12px;
+  height: 40px;
+  width: 300px;
+  overflow: hidden;
+  padding: 10px;
+}
+.itemcheckMenuGray{
+  color: #ffffff;
+}
+
+.itemcheckMenuGrayReport {
+  color: black;
+}
+
+.itemcheckChecked {
+  text-align: left;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px;
+  width: 300px;
+  font-size: 14px;
+  height: 40px;
+  color: #b1b1b1;
+  background-color: #844c74;
+}
+
+.itemcheckCheckedMenuGray, .itemcheckCheckedMenuGrayReport {
+  text-align: left;
+  overflow: hidden;
+  padding: 10px;
+  width: 300px;
+  font-size: 12px;
+  height: 40px;
+}
+
+.itemcheckCheckedMenuGray{
+  color: #ffffff;
+}
+
+.itemcheckCheckedMenuGrayReport{
+  color:black;
+}
+
+.itemcheck:hover {
+  color: #b1b1b1;
+  background-color: #844c74;
+}
+
+.itemactioned {
+  color: white;
+  animation: beat 0.25s infinite alternate;
+  transform-origin: center;
+}
+@keyframes beat {
+  to {
+    transform: scale(2);
+  }
+}
+
+.itemchecked {
+  font-weight: 600;
+  text-align: left;
+  height: 40px;
+  background-color: #683364;
+  color: #b1b1b1;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.itemchecked .svg-inline--fa {
+  margin-right: 5px;
+  width: 1.1em;
+  height: 0.72em;
+}
+
+.number {
+  color: #5b2157;
+  background: #b1b1b1;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-right: 5px;
+  padding: 2px 6px 2px 5px;
+}
+
+.checkpointMenuTitle {
+  text-align: left;
+  padding: 10px 10px 0 10px;
+  color: #b1b1b1;
+}
+
+.checkpointMenuSubTitle {
+  text-align: left;
+  padding: 10px 10px 0 10px;
+  color: #b1b1b1;
+}
+
+.checkpointMenuSubTitle hr {
+  border-top: 1px solid rgba(238, 238, 238, 0.2);
+}
+
+.checkpointMenuTitle hr {
+  margin-top: 0;
+  border-top: 1px solid rgba(238, 238, 238, 0.2);
+  margin-bottom: 5px;
+}
+
+.checkpointMenuTitle p:nth-child(1) {
+  font-size: 20px;
+}
+
+.checkpointMenuTitle p:nth-child(2) {
+  font-size: 14px;
+}
+
+.boxSwitch {
+  position: fixed;
+  bottom: 0;
+  margin-left: -12px;
+}
+
+.textSwitch {
+  font-size: 14px;
+  text-shadow: rgba(0, 0, 0, 0.0980392) 0 0 1px;
+  color: #b1b1b1;
+}
+
+.boxCheckpoint {
+  float: left;
+  width: 190px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.boxIcons {
+  float: right;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+.fade-exit {
+  opacity: 1;
+}
+.fade-exit-active {
+  opacity: 0.01;
+  transition: opacity 500ms ease-in;
+}

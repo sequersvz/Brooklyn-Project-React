@@ -1,0 +1,88 @@
+.rich-text-wrapper {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.rich-text-wrapper ul {
+  list-style: disc;
+}
+
+.rich-text-wrapper img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rdw-editor-toolbar img,
+.rdw-link-decorator-wrapper img {
+  width: 14px;
+  height: 14px;
+}
+
+.rich-text-wrapper ol {
+  padding-left: 0px;
+}
+
+.rich-text-wrapper {
+  width: 100%;
+}
+
+.rdw-colorpicker-modal-style-label {
+  width: 56%;
+}
+
+.rich-text-wrapper code {
+  all: default;
+}
+
+
+/* Margin/align view mode */
+
+.rich-text-wrapper div[data-tip] p {
+  font-size: 13px;
+}
+
+.rich-text-wrapper div[data-tip] ul,
+.rich-text-wrapper div[data-tip] ol{
+  position: relative;
+  margin-left: 19.5px;
+
+}
+
+.rich-text-wrapper div[data-tip] ul li,
+.rich-text-wrapper div[data-tip] ol li {
+  position:relative;
+  top:-15px;
+}
+
+
+.rich-text-wrapper *{
+  margin-bottom: 5px;
+}
+
+.rich-text-wrapper div img[style="float: none; height: auto;"]{
+  display: flex;
+  justify-content: center;
+}
+
+/* Margin/align edit mode */
+
+.rdw-editor-main div[data-contents="true"] div {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.public-DraftStyleDefault-ul {
+  margin-top: 0;
+  height: max-content;
+  margin-bottom: 20px;
+}
+.public-DraftStyleDefault-ol {
+  margin-top: 0;
+  height: max-content;
+  margin-bottom: 35px;
+
+}
+
+.public-DraftStyleDefault-orderedListItem.public-DraftStyleDefault-listLTR:before {
+  left: -30px;
+}

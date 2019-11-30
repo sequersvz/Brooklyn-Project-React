@@ -1,0 +1,16 @@
+.machineLearningDashboard {
+    background-image: url('./machineLearingStudioDashboard.png');
+    background-size: 100%;
+    height: 860px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+
+.machineLearningDashboardGif {
+    background-image: url('./machineLearingStudioDashboard.gif');
+    background-size: 100%;
+    height: 860px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

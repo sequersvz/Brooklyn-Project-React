@@ -1,0 +1,217 @@
+.itemreview ul {
+  border: none;
+  padding: 0;
+  list-style: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+}
+
+.alert {
+  border: none;
+  z-index: 9999;
+}
+
+.alert-success {
+  font-size: 14px;
+  background-color: none;
+}
+
+.panel-body {
+  padding: 0;
+  border-top: 1px solid;
+  font-size: 12px;
+  border: none !important;
+}
+
+.sortBox {
+  padding: 15px 0 0 10px;
+  background: white;
+  list-style-type: none;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
+}
+
+.sortBox hr {
+  display: none !important;
+}
+
+.expandedActive {
+  padding-left: 10px;
+  border-left: 3px solid #5b2157;
+}
+
+textarea,
+input {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 10px 0;
+  background: white no-repeat;
+
+  /* IMPORTANT PART HERE */
+
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+  background-image: linear-gradient(to bottom, #9c27b0, #9c27b0),
+    linear-gradient(to bottom, silver, silver);
+  /* sizes for the 2 images (default state) */
+  background-size: 0 2px, 100% 1px;
+  /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+  background-position: 50% 100%, 50% 100%;
+  /* animation solely on background-size */
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+textarea:focus,
+input:focus {
+  /* sizes for the 2 images (focus state) */
+  background-size: 100% 2px, 100% 1px;
+  outline: none;
+}
+
+.headerLogo img {
+  float: left;
+  max-width: 127px;
+  max-height: 23px;
+}
+
+.uploadingFragment {
+  background: #e5e5e5;
+  border-radius: 3px;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  height: 100%
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.dialog {
+  box-shadow: 0 8px 6px -6px black;
+  position: static;
+  left: 20%;
+  top: 10%;
+}
+
+.image {
+  width: 300px;
+}
+
+.popover__title {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  text-decoration: none;
+  color: rgb(228, 68, 68);
+  text-align: center;
+  padding: 15px 0;
+}
+
+.popover__wrapper {
+  position: relative;
+  margin-top: 1.5rem;
+  display: block;
+  margin: 0;
+}
+.popover__content {
+  top: -210px;
+  left: 632px;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  transform: translate(0, 10px);
+  padding: 1.5rem;
+  width: auto;
+}
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  top: -8px;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.popover__content {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+}
+
+.popover__content__extra {
+  position: absolute;
+  top: -234px;
+  left: 442px;
+}
+
+@media screen and (min-width: 1440px) {
+  .popover__content {
+    left: 792px;
+  }
+
+  .popover__content__extra {
+    left: 602px;
+  }
+
+  .popover__content__covered {
+    left: 760px !important;
+  }
+}
+
+.popover__wrapper__covered:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  transition-duration: 0.3s;
+}
+
+.popover__content__covered {
+  opacity: 0;
+  z-index: 10;
+  position: absolute;
+  top: -160px;
+  left: 600px;
+  transform: translate(0, 10px);
+}
+
+.popover__wrapper__covered:hover .popover__content__covered {
+  z-index: 10;
+  opacity: 1;
+  visibility: visible;
+  transform: translate(0, -20px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+}
+
+.inputTitle {
+  margin-bottom: 10px;
+  background: #e5e5e5;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 2px solid #683364;
+  transition: 0.3s;
+}
+
+.boxContainer {
+  background: #eee;
+  padding: 10px
+}
+
+.title {
+  color: #555555;
+  font-size: 18px;
+  padding-top: 10px
+}
+
+.vendorLogo{
+  width: 120px;
+}

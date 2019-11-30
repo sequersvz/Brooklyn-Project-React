@@ -1,0 +1,162 @@
+ul {
+  word-wrap: break-word;
+  padding: 1em;
+}
+
+ul.initiatives {
+  min-height: 360px;
+}
+
+.texto-vertical-2 {
+  margin-top: 30px;
+  color: #555555;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  display: block;
+  float: left;
+}
+
+.costado {
+  display: block;
+  float: left;
+  width: 97%;
+}
+
+.brooklynPipeLineChartBox {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 30px;
+  min-height: 440px;
+  margin-top: 45px;
+}
+
+.brooklynPipeLineChartHeader {
+  font-size: 14px;
+  color: white;
+  background: #ffa726;
+  margin: -35px 0 20px 0;
+  padding: 12px;
+  border-radius: 4px;
+  text-transform: capitalize;
+  -webkit-box-shadow: -3px 3px 5px 0px rgba(177, 177, 177, 0.75);
+  box-shadow: -3px 3px 5px 0px rgba(177, 177, 177, 0.75);
+}
+
+.brooklynPipeLineChartHeader p {
+  margin: 0;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 8px 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0.8);
+  border: 0px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+.nameInsideTheBoxContainer {
+  float: left;
+  text-align: left;
+  padding-left: 10px;
+  width: 80%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.amountInsideTheBoxContainer {
+  text-align: right;
+  width: 20%;
+  float: left;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+span.nameOutsideTheBoxContainer {
+  margin-left: 10px;
+  float: left;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: smaller;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.xaxis {
+  margin-left: 2em;
+  width: 90%;
+  clear: both;
+  margin-bottom: 10px;
+}
+
+/**
+ * Tooltip Styles
+ */
+
+[data-tooltip] {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+}
+
+[data-tooltip]:before,
+[data-tooltip]:after {
+  visibility: hidden;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  pointer-events: none;
+}
+
+[data-tooltip]:before {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-bottom: 5px;
+  margin-left: -80px;
+  padding: 7px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background-color: hsla(0, 0%, 20%, 0.9);
+  color: #fff;
+  content: attr(data-tooltip);
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+[data-tooltip]:after {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  width: 0;
+  border-top: 5px solid hsla(0, 0%, 20%, 0.9);
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  content: " ";
+  font-size: 0;
+  line-height: 0;
+}
+
+[data-tooltip]:hover:before,
+[data-tooltip]:hover:after {
+  visibility: visible;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+.home-container li {
+  list-style-type: none;
+}
+/*end tooltips*/

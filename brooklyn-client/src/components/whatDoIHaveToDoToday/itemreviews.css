@@ -1,0 +1,109 @@
+.itemreview {
+  border: none;
+  padding: 0;
+  list-style: none;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+}
+
+.alert {
+  border: none;
+  z-index: 9999;
+}
+
+.alert-success {
+  font-size: 14px;
+  background-color: none;
+}
+
+.panel-body {
+  padding: 15px 15px 0 15px;
+  border-top: 1px solid;
+  font-size: 13px;
+  border: none !important;
+}
+
+.expandedActive {
+  border-left: 3px solid #5b2157;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  padding: 10px 5px;
+  background: white no-repeat;
+
+  /*
+    * IMPORTANT PART HERE
+    */
+
+  /* 2 imgs : 1px gray line (normal state) AND 2px green line (focus state) */
+  background-image: linear-gradient(to bottom, #9c27b0, #9c27b0),
+    linear-gradient(to bottom, silver, silver);
+  /* sizes for the 2 images (default state) */
+  background-size: 0 2px, 100% 1px;
+  /* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+  background-position: 50% 100%, 50% 100%;
+
+  /* animation solely on background-size */
+  transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+textarea:focus {
+  /* sizes for the 2 images (focus state) */
+  background-size: 100% 2px, 100% 1px;
+  outline: none;
+}
+
+.headerLogo img {
+  float: left;
+  max-width: 127px;
+  max-height: 23px;
+}
+
+.expandedActiveBorder {
+  text-align: left;
+  list-style: none;
+  padding: 15px 0;
+  border-bottom: 1px solid #b1b1b1;
+  border-left: none;
+}
+
+.expandedActiveBorder p {
+  margin: 0
+}
+
+.boxTitle {
+  text-align: left;
+  line-height: 46px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.boxAvatar {
+  float: right;
+}
+
+.avatarManager {
+  width: 50px;
+  margin: 0 5px;
+}
+
+.buttonLoad {
+  background: none;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  color: #683364;
+  padding: 10px;
+}
+
+.buttonLoad:focus {
+  outline: none;
+}

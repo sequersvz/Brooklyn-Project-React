@@ -1,0 +1,49 @@
+.insightBack ul {
+    border: none;
+    padding	: 0;
+    list-style: none;
+        -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+}
+
+.alert {
+    border: none;
+    z-index: 9999;
+}
+
+.alert-success {
+    font-size: 14px;
+    background-color: none;
+}
+
+.panel-body {
+    padding: 15px 15px 0 15px;
+    border-top: 1px solid;
+    font-size: 13px;
+    border: none !important;
+}
+
+.expandedActive { 
+     border-left: 3px solid #5b2157;
+}
+
+.font-body {
+  font-size: 12px;
+}
+
+.titles-table {
+  font-weight: 700;
+  text-align: right;
+}
+
+.hr-style  {
+  border: 0;
+  height: 1px;
+  margin: 0;
+  background-image: linear-gradient(to right, rgba(177, 177, 177, 0), rgba(177, 177, 177, 0.75), rgba(177, 177, 177, 0));
+}

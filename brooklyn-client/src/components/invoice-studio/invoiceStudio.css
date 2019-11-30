@@ -1,0 +1,15 @@
+.invoiceStudioDashboard {
+    background-image: url('./invoiceStudioMaster.png');
+    background-size: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.invoiceStudioDetail{
+    background-image: url('./invoice.png');
+    background-size: 100%;
+    height: 860px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

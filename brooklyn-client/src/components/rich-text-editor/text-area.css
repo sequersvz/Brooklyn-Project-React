@@ -1,0 +1,18 @@
+.rich-text-area {
+  border-bottom: 1px solid #0000008a;
+  font-size: 1.4em;
+}
+.rich-text-area:hover {
+  border-bottom: 2px solid #000;
+}
+.rich-text-area.editing {
+  border-bottom: 2px solid #683364;
+}
+
+.text-area-overview {
+  font-size: 1em;
+  white-space: "pre-wrap";
+  cursor: "text";
+  text-align: "justify";
+  margin: 10 0 0;
+}

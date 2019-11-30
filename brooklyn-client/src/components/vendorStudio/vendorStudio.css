@@ -1,0 +1,51 @@
+.vendorJourney {
+    padding: 30px;
+    background-image: url('./vendorJourney.png');
+    background-size: 100%;
+    height: 980px;
+    background-repeat: no-repeat;
+}
+
+.align-text {
+    text-align: center;
+}
+
+.icon-style {
+    color: #683364;
+    cursor: pointer;
+}
+
+.table-body {
+    margin-bottom: 30px;
+    padding: 15px 30px 30px 30px;
+    border: 1px solid #b1b1b1;
+    background: white;
+}
+.table-conten {
+    padding: 10px 0;
+    border-bottom: 1px solid #b1b1b1;
+    font-size: 14px;
+}
+
+.iconSearch {
+    float: right;
+    color: #555555;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 20px 0 0 10px;
+    position: relative;
+}
+
+.boxSearch {
+    padding: 10px 0 0 20px;
+    display: flex;
+}
+
+.iconReset {
+    margin: -3px 0 0 5px;
+    font-size: 12px
+}
+
+.boxReset {
+    padding: 15px 0 0 15px
+}

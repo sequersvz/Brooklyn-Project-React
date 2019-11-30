@@ -1,0 +1,46 @@
+.logoSize img {
+  margin-top: 20px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.logoSize p {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.attendeeInput {
+  margin: 10px 0;
+}
+
+.hrStyle {
+  margin-top: -10px;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.tableMockup {
+  padding-top: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.objectivesBox {
+  cursor: pointer;
+  margin-right: 20px;
+  white-space: pre-wrap;
+}
+
+.btnAddItem {
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.btnAddItem:hover {
+  color: #683364;
+  text-decoration: underline;
+}
+
+.objectivesBox,
+.rich-text-wrapper ul {
+  border: none;
+}

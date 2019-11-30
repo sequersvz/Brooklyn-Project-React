@@ -1,0 +1,83 @@
+.header-lineHeight {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    margin-top: -40px;
+    margin-right: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+    box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+
+}
+
+.header-kpi {
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 65px;
+    float: left;
+    padding: 15px;
+    margin-top: -40px;
+    margin-right: 10px;
+    border-radius: 3px;
+    -webkit-box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+    box-shadow: -5px 5px 10px -3px rgba(0,0,0,0.5);
+}
+
+.header-yellow {
+    background: #ffa21a;
+}
+
+.header-green {
+    background: #5cb860;
+}
+
+.header-red {
+    background: #f05b4f;
+}
+
+.header-blue {
+    background: #00bcd4;
+}
+
+.icon {
+    display: inline-block;
+    color: white;
+    font-size: 24px;
+}
+
+.kpi-content {
+    text-align: right;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .kpi-content {
+        margin-bottom: 20px;
+    }
+}
+
+.kpi-content p {
+    font-size: 12px;
+    color: #999999;
+    margin-bottom: 0;
+}
+
+.kpi-content hr {
+    margin: 0 0 5px 0;
+}
+
+.kpi-content h2 {
+    margin-top: 10px !important;
+}
+
+.valueInsideTheKPI {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

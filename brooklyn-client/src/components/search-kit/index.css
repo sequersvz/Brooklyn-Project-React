@@ -1,0 +1,83 @@
+.sk-layout__filters {
+  padding: 20px 15px 0 15px;
+  margin-bottom: 20px;
+  transition: transform 450ms ease-in;
+}
+
+.sk-layout__filters .sk-hierarchical-menu-list,
+.sk-layout__filters .sk-hierarchical-refinement-list,
+.sk-layout__filters .sk-numeric-refinement-list,
+.sk-layout__filters .sk-range-filter,
+.sk-layout__filters .sk-refinement-list {
+  margin-bottom: 20px;
+}
+
+.sk-layout__filters .sk-select {
+  width: 100%;
+}
+
+.sk-layout__filters .sk-range-input {
+  margin-top: 10px;
+}
+
+.spanSearchKit {
+  display: inline !important;
+}
+
+.hrFilters {
+  border-top: 1px solid #b1b1b1;
+  margin-top: 10px;
+}
+
+.nameInsideTheFilters {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.sk-layout__filters.slideOut {
+  display: none;
+  overflow: hidden;
+}
+
+.filterbar {
+  text-align: left;
+  white-space: nowrap;
+  float: top;
+  transition: height 350ms ease-in;
+  z-index: 800 !important;
+  position: relative;
+  overflow: visible;
+}
+
+.filterbar.slideIn {
+  height: 100%;
+}
+.filterbar.slideOut {
+  height: 40px;
+}
+
+@media (min-width: 992px), (min-width: 768px) {
+  .sk-layout__filters {
+    transition: transform 450ms ease-in;
+  }
+  .sk-layout__filters.slideOut {
+    display: block;
+    overflow: visible;
+    transform: translateX(-40vw);
+  }
+  .filterbar {
+    white-space: nowrap;
+    top: 100px;
+    float: left;
+    transition: width 350ms ease-in;
+    position: sticky;
+  }
+  .filterbar.slideOut {
+    width: 40px;
+  }
+
+  .filterbar.slideIn {
+    width: 16.6667%;
+  }
+}

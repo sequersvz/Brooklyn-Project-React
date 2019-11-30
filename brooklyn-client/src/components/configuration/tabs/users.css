@@ -1,0 +1,16 @@
+.table-conten-users {
+  padding: 10px;
+  border-bottom: 1px solid #b1b1b1;
+  font-size: 14px;
+}
+
+.companyLogo {
+  padding: 30px;
+  background: white;
+  margin-right: 15px;
+  border: 1px solid #b1b1b1;
+}
+
+.react-tel-input {
+  margin-bottom: 9px;
+}

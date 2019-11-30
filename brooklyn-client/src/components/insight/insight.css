@@ -1,0 +1,53 @@
+.insightDashboardChild {
+    background-image: url('./insight-master.png');
+    background-size: 100%;
+    height: 1280px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.insightPiece {
+    background-image: url('./insight-piece.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.invoiceStudioPiece {
+    background-image: url('./invoice-studio-piece.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.machineLearningStudioPiece {
+    background-image: url('./machine-learning-studio-piece.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.insightNumbersPiece {
+    background-image: url('./insight-numbers-piece.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.insightShowCase {
+    background-image: url('./insight-showcase.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.insightBack{
+    padding-top: 20px;
+}
+
+.echoBody {
+    background: #683364;
+    color: #ffffff;
+    border-radius: 3px;
+    -webkit-box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.3);
+    box-shadow: -3px 3px 3px 0px rgba(0,0,0,0.3);
+}

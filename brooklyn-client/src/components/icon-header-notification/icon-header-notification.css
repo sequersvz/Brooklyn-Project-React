@@ -1,0 +1,64 @@
+.drop-icon-header-notification {
+  top: 10px;
+  display: inline-block;
+}
+
+.drop-icon-header-notification span {
+  padding: 0;
+}
+.drop-content-icon-header-notification {
+  position: absolute;
+  min-width: 200px;
+  z-index: 1;
+  top: 30px;
+  right: 11px;
+  -webkit-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: -3px 3px 3px 0px rgba(0, 0, 0, 0.3);
+}
+
+.circle-notification:before {
+  content: "\25CF";
+  font-size: 15px;
+  position: absolute;
+  float: right;
+  top: -8px;
+  left: 15px;
+  z-index: 10;
+  color: red;
+}
+
+.drop-icon-header-notification .drop-content-icon-header-notification img {
+  max-width: 300px !important;
+  width: 300px !important;
+  max-height: 150px !important;
+}
+
+.btn-alert {
+  box-shadow: none;
+  background: white;
+  font-size: 16px;
+  text-decoration: none;
+  color: #555555 !important;
+  margin: 0 10px;
+}
+
+.btn:hover,
+.btn.btn-default:hover {
+  border: none;
+}
+
+.btn-alert:hover {
+  box-shadow: none;
+  background: white;
+}
+
+.btn-alert:focus {
+  outline: none;
+  box-shadow: none;
+  background: white;
+}
+.btn:active:focus,
+.btn:focus {
+  outline: none;
+}

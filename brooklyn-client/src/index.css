@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #ededed;
+  height: 100vh;
+}
+
+/*
+.sidemenu {
+  width: 200px
+}*/
+
+.itemreviews {
+  margin-left: 139px;
+  margin-top: 33px;
+}
+
+/*LOGIN*/
+
+.Button__button___1FrBC {
+  background: #683364 !important;
+}
+
+.Button__button___1FrBC:hover {
+  opacity: 0.8;
+}
+
+.Button__button___1FrBC:active, .Button__button___1FrBC:disabled{
+  outline: none !important;
+  opacity: 0.8 !important;
+}
+
+.amplify-container {
+  padding: 0 !important;
+}
+
+.amplify-form-section {
+  margin-top: 100px;
+  -webkit-box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+  -moz-box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+  box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+}
+
+.amplify-section-header {
+  background: #683364 !important;
+}
+
+.amplify-section-footer {
+  border-radius: 0 !important;
+}
+
+.amplify-button {
+  color: white !important;
+  background: #683364 !important;
+  border-radius: 0 !important;
+  padding: 8px 30px !important;
+  border: none !important;
+}
+
+.amplify-a {
+  color: #683364 !important;
+  font-size: 12px !important;
+}
+
+.amplify-form-row input { 
+  border-radius: 0 !important;
+}
+
+.amplify-nav-bar {
+	background: white;
+	-webkit-box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+	-moz-box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+	box-shadow: -3px 3px 5px 0px rgba(177,177,177,0.75);
+}
+
+.customBox {
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2), 
+                0px 2px 2px 0px rgba(0,0,0,0.14),
+                  0px 3px 1px -2px rgba(0,0,0,0.12)
+}
+
+.customTitle {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+}

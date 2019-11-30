@@ -1,0 +1,15 @@
+.custom-toolbar {
+  margin-top: 80px;
+}
+
+@media only screen and (max-width: 1060px) {
+  .custom-toolbar {
+    margin-top: 140px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .custom-toolbar {
+    margin-top: 180px;
+  }
+}

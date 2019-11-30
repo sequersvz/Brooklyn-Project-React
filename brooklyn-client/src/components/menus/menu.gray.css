@@ -1,0 +1,241 @@
+.noPadding {
+  padding: 0;
+}
+.menu-gray li {
+  list-style-type: none;
+}
+/*LeftGray*/
+
+.itemCategory {
+  background: #555555;
+}
+
+.itemCategoryReport {
+  background: white;
+}
+
+.itemCategorySelectedReport {
+  background: #eeeded;
+}
+
+.itemCategorySelected {
+  background: #848484;
+}
+
+.titleSide {
+  font-size: 20px;
+  width: 100%;
+  border-bottom: solid 1px gray;
+  padding-bottom: 10px;
+}
+.sideScoreReport {
+  overflow-x: auto;
+}
+
+.leftGray,
+.leftGrayReport {
+  width: 100%;
+  font-size: 12px;
+}
+
+.leftGray {
+  background: #555555;
+  height: 140vh !important;
+  margin-top: -40px;
+}
+
+.leftGrayReport {
+  background: #fffefe;
+  margin-top: 1em;
+}
+
+.leftGray .item,
+.leftGrayReport .item {
+  height: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 10px 20px 10px 10px;
+}
+.leftGray .item {
+  color: white;
+}
+.leftGrayReport .item {
+  color: gray;
+}
+
+.leftGray .item:hover {
+  background-color: #848484;
+}
+
+.leftGrayReport .item:hover {
+  background-color: #eeeded;
+}
+
+.leftGray .itemchecked,
+.leftGrayReport .itemchecked {
+  height: 40px;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background: #848484;
+}
+
+.leftGrayReport .itemchecked {
+  color: gray;
+  background: #eeeded;
+}
+
+.leftGray .textSwitch {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.0980392) 0 0 1px;
+}
+
+/* --> <-- */
+
+/*LeftSide*/
+
+.scoreBox {
+  display: inline-flex;
+}
+
+.textTitle {
+  max-width: 60%;
+  font-size: 18px;
+  font-weight: 700;
+  overflow: hidden;
+  margin-right: 10px;
+  white-space: nowrap;
+  display: inline-block;
+  text-overflow: ellipsis;
+}
+
+.sideTitle {
+  padding: 10px;
+  height: 50px;
+  color: white;
+  font-size: 14px;
+  background: #848484;
+  line-height: normal;
+  overflow: auto;
+  white-space: nowrap;
+}
+.arrowTitleReview {
+  padding: 10px;
+  height: 50px;
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  margin-top: -40px;
+  background: #848484;
+  line-height: normal;
+}
+
+.arrowTitleReview p:first-child {
+  margin: 0;
+  float: left;
+}
+
+.arrowTitleReview p:last-child {
+  margin: 0;
+  float: right;
+}
+
+.arrowTitleReview hr {
+  margin-top: 25px;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(90deg, white, transparent);
+}
+
+.leftSide {
+  color: white;
+  background: #555;
+  height: 133vh !important;
+}
+
+.leftSide p {
+  margin: 0;
+}
+
+.leftSide ul,
+.rightGray ul {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.squareChart {
+  font-size: 14px;
+  margin-left: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.liScoreContainer {
+  text-align: left;
+}
+
+.scoreContainer {
+  height: 40px;
+  padding: 10px;
+  font-size: 12px;
+  display: inline-flex;
+}
+
+.scoreSquare,
+.scoreSquareReport {
+  float: left;
+  width: 30px;
+  padding: 5px;
+  font-size: 12px;
+  margin-top: -4px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scoreSquare {
+  background-color: white;
+}
+
+.scoreSquareReport {
+  background-color: grey;
+}
+
+.scoreTooltipBox {
+  display: inline-block;
+}
+
+/* --> <-- */
+
+/*RightSide*/
+
+.rightGray {
+  color: white;
+  margin-top: -40px;
+  background: #b1b1b1;
+  height: 140vh !important;
+}
+
+.rightGray .itemcheck {
+  color: #555555;
+}
+
+.rightGray .itemcheck:hover {
+  color: #555;
+  background: none;
+}
+
+.rightGray .itemcheckChecked {
+  color: #555;
+  background: none;
+}
+
+.scoreMyCheckpoint p {
+  margin: 15px 0;
+}
+
+.scoreMyCheckpoint hr {
+  margin: 0;
+}

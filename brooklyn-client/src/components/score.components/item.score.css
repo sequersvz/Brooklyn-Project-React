@@ -1,0 +1,49 @@
+.itemscore {
+  width: 250px;
+}
+
+.descriptionTitle {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.description {
+  word-wrap: break-word;
+}
+
+.importance {
+  padding-top: 20px;
+  text-align: center;
+  width: 250px;
+}
+
+.titleComment {
+  padding: 0;
+  padding-top: 10px;
+  border-top: 1px solid #eeee;
+  text-align: center;
+}
+
+.titleComment p {
+  font-size: 18px;
+  margin: 0;
+}
+
+.boxComment {
+  border-top: 1px solid #b1b1b1;
+  border-left: 1px solid #b1b1b1;
+  border-right: 1px solid #b1b1b1;
+  border-radius: 3px;
+}
+
+.scoreName {
+  margin-bottom: 20px;
+}
+
+.boxImportance {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid #b1b1b1;
+}

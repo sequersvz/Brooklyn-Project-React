@@ -1,0 +1,24 @@
+.amplify-section-footer-content div:nth-child(2) {
+  display: none !important;
+}
+
+.sidemenu {
+  margin-top: -40px;
+  float: left;
+}
+
+.bodyContainer {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+.marginApp {
+  margin-top: 40px;
+}
+
+@media only screen and (max-width: 960px) {
+  .marginApp {
+    margin-top: 100px;
+  }
+}
