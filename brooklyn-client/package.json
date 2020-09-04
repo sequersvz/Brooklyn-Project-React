@@ -27,7 +27,7 @@
     "html-to-draftjs": "^1.4.0",
     "material-ui-pickers": "^1.0.1",
     "moment": "^2.23.0",
-    "papaparse": "^4.6.3",
+    "papaparse": "^5.2.0",
     "prop-types": "^15.6.2",
     "randomcolor": "^0.5.4",
     "rc-slider": "^8.6.11",
